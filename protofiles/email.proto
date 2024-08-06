@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package proto;
+package protofiles;
 
-option go_package = "github.com/reodotdev/proto;proto";
+option go_package = "github.com/reodotdev/proto/protofiles;protofiles";
 
 service EmailValidationService {
   rpc SendEmailValidation(EmailRequest) returns (EmailResponse);
