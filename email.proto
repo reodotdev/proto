@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package protofiles;
 
-option go_package = "./protofiles";
+option go_package = "./.";
 
 service EmailValidationService {
   rpc SendEmailValidation(EmailRequest) returns (EmailResponse);

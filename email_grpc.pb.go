@@ -2,9 +2,9 @@
 // versions:
 // - protoc-gen-go-grpc v1.5.1
 // - protoc             v5.27.3
-// source: protofiles/email.proto
+// source: email.proto
 
-package protofiles
+package __
 
 import (
 	context "context"
@@ -118,5 +118,5 @@ var EmailValidationService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "protofiles/email.proto",
+	Metadata: "email.proto",
 }
