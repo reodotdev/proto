@@ -14,3 +14,6 @@ go mod tidy
 ```bash
 protoc --go_out=. --go-grpc_out=. protofiles/*.proto
 ```
+
+
+go get github.com/reodotdev/proto/protofiles@v0.1.0
