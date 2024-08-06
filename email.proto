@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package proto;
+
+service EmailValidationService {
+  rpc SendEmailValidation(EmailRequest) returns (EmailResponse);
+}
+
+message EmailRequest {
+  string email = 1;
+}
+
+message EmailResponse {
+  string message = 1;
+}
